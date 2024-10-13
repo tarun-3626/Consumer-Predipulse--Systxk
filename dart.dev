@@ -1,0 +1,24 @@
+import 'dart:math';
+
+List<Map<String, num>> customerData = [
+  {'age': 30, 'call_duration': 10, 'satisfaction_rating': 8},
+  {'age': 25, 'call_duration': 5, 'satisfaction_rating': 7},
+  // ... more data
+];
+
+// Function to calculate the linear regression coefficients
+List<num> calculateCoefficients(List<Map<String, num>> data) {
+  // Implement the linear regression algorithm here
+  // ...
+  return [0.5, 0.2]; // Example coefficients
+}
+
+// Function to predict the satisfaction rating based on age and call duration
+num predictSatisfaction(List<num> coefficients, int age, int callDuration) {
+  return coefficients[0] * age + coefficients[1] * callDuration;
+}
+
+// Calculate coefficients and predict satisfaction
+List<num> coefficients = calculateCoefficients(customerData);
+num predictedSatisfaction = predictSatisfaction(coefficients, 35, 8);
+print('Predicted satisfaction rating: $predictedSatisfaction');
