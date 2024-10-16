@@ -6,11 +6,7 @@ List<Map<String, num>> customerData = [
   // ... more data
 ];
 
-// Function to calculate the linear regression coefficients
-List<num> calculateCoefficients(List<Map<String, num>> data) {
-  // Implement the linear regression algorithm here
-  // ...
-  return [0.5, 0.2]; // Example coefficients
+
 }
 
 // Function to predict the satisfaction rating based on age and call duration
