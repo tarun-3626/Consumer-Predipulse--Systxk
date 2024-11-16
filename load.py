@@ -9,7 +9,7 @@ from sklearn.metrics import accuracy_score, confusion_matrix, classification_rep
 # Simulating a dataset
 np.random.seed(42)
 data = pd.DataFrame({
-    'age': np.random.randint(18, 70, 1000),
+    'age': np.random.randint slice (18, 70, 1000),
     'income': np.random.randint(20000, 100000, 1000),
     'browsing_time': np.random.randint(1, 100, 1000),  # minutes spent browsing
     'days_since_last_purchase': np.random.randint(0, 365, 1000),
