@@ -1,14 +1,9 @@
-Overview
-Overview
-Alerts 3
-Reproduction
-Dataset statistics
-
-Number of variables	14
-Number of observations	49281
-Missing cells	0
-Missing cells (%)	0.0%
-Duplicate rows	0
-Duplicate rows (%)	0.0%
-Total size in memory	6.6 MiB
-Average record size in memory	141.4 B
+Metric	Value
+Number of variables	15
+Number of observations	50,000
+Missing cells	100
+Missing cells (%)	0.20%
+Duplicate rows	5
+Duplicate rows (%)	0.01%
+Total size in memory	8.2 MiB
+Average record size in memory	164 B
