@@ -1,0 +1,10 @@
+Import gradle server 
+
+ string HH = s.substr(0,2);
+                    string MM = s.substr(3,2);
+                    string SS = s.substr(6,2);
+                    int h = stoi(HH);
+                    int m = stoi(MM);
+                    int sec = stoi(SS);
+                    int total = h*3600 + m*60 + sec;
+                    times.push_back(total);
